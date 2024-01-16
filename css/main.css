@@ -1,0 +1,1928 @@
+@font-face {
+  font-family: regular;
+  src: url(../fontlar/RedHatDisplay-Regular.ttf);
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1920px;
+  height: 3876px;
+  background-color: white;
+}
+.container .navruz {
+  background: linear-gradient(265.48deg, #095ACD 33.12%, #006AFF 84.7%);
+  width: 1920px;
+  height: 485px;
+}
+.container .navruz .head_text {
+  top: 30px;
+  left: 318px;
+  position: absolute;
+  color: white;
+  font-family: regular;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: left;
+}
+.container .navruz .head_input {
+  width: 304px;
+  height: 46px;
+  top: 26px;
+  left: 702px;
+  border-radius: 5px;
+  border: 1px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  transition: 0.5s;
+}
+.container .navruz .head_input:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .navruz .head_img {
+  width: 18px;
+  height: 18px;
+  top: 40px;
+  left: 720px;
+  position: absolute;
+}
+.container .navruz .head_text_small {
+  top: 37px;
+  left: 1109px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: white;
+  transition: 0.5s;
+}
+.container .navruz .head_text_small:hover {
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .navruz .head_text_will {
+  top: 37px;
+  left: 1254px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: white;
+  transition: 0.5s;
+}
+.container .navruz .head_text_will:hover {
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .navruz .head_btn {
+  width: 160px;
+  height: 51px;
+  top: 22px;
+  left: 1443px;
+  border-radius: 4px;
+  background: #FE8B37;
+  border: 1px solid #FE8B37;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: white;
+  transition: 0.5s;
+}
+.container .navruz .head_btn:hover {
+  color: #FE8B37;
+  background: white;
+  border: 1px solid #FE8B37;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .navruz .head_text_gigant {
+  width: 840px;
+  height: 158px;
+  top: 186px;
+  left: 540px;
+  position: absolute;
+  font-family: regular;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 79px;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
+}
+.container .navruz .head_text_gigant:hover {
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box {
+  width: 1280px;
+  height: 100px;
+  top: 438px;
+  left: 320px;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 70px;
+}
+.container .box .box_img1 {
+  position: absolute;
+  left: 57px;
+  top: 25px;
+  width: 190px;
+  height: 50px;
+}
+.container .box .kill {
+  width: 441px;
+  height: 524px;
+  margin-top: 110px;
+  margin-left: 280px;
+  border-radius: 5px;
+  border: 1px;
+  display: none;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border-color: #333333;
+  background-color: white;
+}
+.container .box .kill .respect {
+  position: absolute;
+  display: flex;
+  font-family: regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+.container .box .kill .figma {
+  top: 150px;
+  position: absolute;
+  display: flex;
+  font-family: regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+.container .box .kill .qobil {
+  position: absolute;
+  display: flex;
+}
+.container .box .kill .great {
+  position: absolute;
+  display: flex;
+  top: 200px;
+  font-family: regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+.container .box .kill .war {
+  position: absolute;
+  display: flex;
+  top: 200px;
+  font-family: regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+.container .box .skill:hover .kill {
+  display: block;
+}
+.container .box .box_img2 {
+  top: 25px;
+  position: absolute;
+  left: 327px;
+  width: 190px;
+  height: 50px;
+}
+.container .box .box_img3 {
+  position: absolute;
+  left: 597px;
+  top: 25px;
+  width: 190px;
+  height: 50px;
+}
+.container .box .box_img4 {
+  position: absolute;
+  top: 25px;
+  left: 873px;
+  width: 190px;
+  height: 50px;
+}
+.container .box .btn {
+  width: 154px;
+  height: 100px;
+  left: 1126px;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  background-color: #095ACD;
+  transition: 0.5s;
+  border: 1px solid #095ACD;
+}
+.container .box .btn:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .p_text {
+  position: absolute;
+  top: 687px;
+  left: 320px;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .p_text:hover {
+  color: blue;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .box_row {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 766px;
+  left: 320px;
+  border: 1px solid grey;
+}
+.container .box_row .row_img_small {
+  border-radius: 5px;
+}
+.container .box_row .box_row_text {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_row .box_row_text:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .small_img {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_row .small_img:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .small_text {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row .small_text:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .big_text_small {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row .big_img {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row .big_img:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .yaxshi {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_row .big {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row .big:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .tosh {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_row .tosh_text {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_row .tosh_text:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .navruz_img {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row .navruz_text {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row .navruz_text:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row .navruz_big {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_row .navruz_item {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row .navruz_item:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 766px;
+  left: 757px;
+  border: 1px solid grey;
+}
+.container .box_grow .row_img_small1 {
+  border-radius: 5px;
+}
+.container .box_grow .big_text1 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_grow .big_text1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .small_img1 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_grow .small_img1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .small_text1 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow .small_text1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .big_text_small1 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow .big_img1 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow .big_img1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .yaxshi1 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_grow .big1 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow .big1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .tosh1 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_grow .tosh_text1 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_grow .tosh_text1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .navruz_img1 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow .navruz_text1 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow .navruz_text1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow .navruz_big1 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_grow .navruz_item1 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow .navruz_item1:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 766px;
+  left: 1194px;
+  border: 1px solid grey;
+}
+.container .box_5 .row_img_plump {
+  border-radius: 5px;
+}
+.container .box_5 .big_text2 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_5 .big_text2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .small_img2 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_5 .small_img2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .small_text2 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_5 .small_text2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .big_text_small2 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_5 .big_img2 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_5 .big_img2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .yaxshi2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_5 .big2 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_5 .big2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .tosh2 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_5 .tosh_text2 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_5 .tosh_text2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .navruz_img2 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_5 .navruz_text2 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_5 .navruz_text2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_5 .navruz_big2 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_5 .navruz_item2 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_5 .navruz_item2:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 1528px;
+  left: 320px;
+  border: 1px solid grey;
+}
+.container .box_row3 .row_img_small3 {
+  border-radius: 5px;
+}
+.container .box_row3 .box_row_text3 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_row3 .box_row_text3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .small_img3 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_row3 .small_img3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .small_text3 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row3 .small_text3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .big_text_small3 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row3 .big_img3 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row3 .big_img3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .yaxshi3 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_row3 .big3 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row3 .big3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .tosh3 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_row3 .tosh_text3 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_row3 .tosh_text3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .navruz_img3 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row3 .navruz_text3 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row3 .navruz_text3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row3 .navruz_big3 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_row3 .navruz_item3 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row3 .navruz_item3:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 1528px;
+  left: 757px;
+  border: 1px solid grey;
+}
+.container .box_grow4 .row_img_small4 {
+  border-radius: 5px;
+}
+.container .box_grow4 .big_text4 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_grow4 .big_text4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .small_img4 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_grow4 .small_img4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .small_text4 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow4 .small_text4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .big_text_small4 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow4 .big_img4 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow4 .big_img4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .yaxshi4 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_grow4 .big4 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow4 .big4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .tosh4 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_grow4 .tosh_text4 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_grow4 .tosh_text4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .navruz_img4 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow4 .navruz_text4 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow4 .navruz_text4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow4 .navruz_big4 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_grow4 .navruz_item4 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow4 .navruz_item4:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 1528px;
+  left: 1194px;
+  border: 1px solid grey;
+}
+.container .box_6 .row_img_plump6 {
+  border-radius: 5px;
+}
+.container .box_6 .big_text6 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_6 .big_text6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .small_img6 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_6 .small_img6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .small_text6 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_6 .small_text6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .big_text_small6 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_6 .big_img6 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_6 .big_img6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .yaxshi6 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_6 .big6 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_6 .big6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .tosh6 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_6 .tosh_text6 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_6 .tosh_text6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .navruz_img6 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_6 .navruz_text6 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_6 .navruz_text6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_6 .navruz_big6 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_6 .navruz_item6 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_6 .navruz_item6:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 2290px;
+  left: 320px;
+  border: 1px solid grey;
+}
+.container .box_row7 .row_img_small7 {
+  border-radius: 5px;
+}
+.container .box_row7 .box_row_text7 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_row7 .box_row_text7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .small_img7 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_row7 .small_img7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .small_text7 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row7 .small_text7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .big_text_small7 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row7 .big_img7 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_row7 .big_img7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .yaxshi7 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_row7 .big7 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row7 .big7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .tosh7 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_row7 .tosh_text7 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_row7 .tosh_text7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .navruz_img7 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_row7 .navruz_text7 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row7 .navruz_text7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_row7 .navruz_big7 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_row7 .navruz_item7 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_row7 .navruz_item7:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 2290px;
+  left: 757px;
+  border: 1px solid grey;
+}
+.container .box_grow8 .row_img_small8 {
+  border-radius: 5px;
+}
+.container .box_grow8 .big_text8 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_grow8 .big_text8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .small_img8 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_grow8 .small_img8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .small_text8 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow8 .small_text8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .big_text_small8 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow8 .big_img8 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_grow8 .big_img8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .yaxshi1 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_grow8 .big8 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow8 .big8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .tosh8 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_grow8 .tosh_text8 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_grow8 .tosh_text8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .navruz_img8 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_grow8 .navruz_text8 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow8 .navruz_text8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_grow8 .navruz_big8 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_grow8 .navruz_item8 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_grow8 .navruz_item8:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 {
+  position: absolute;
+  width: 410px;
+  height: 692px;
+  top: 2290px;
+  left: 1194px;
+  border: 1px solid grey;
+}
+.container .box_9 .row_img_plump9 {
+  border-radius: 5px;
+}
+.container .box_9 .big_text9 {
+  top: 437px;
+  left: 30px;
+  position: absolute;
+  font-family: regular;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: left;
+  transition: 0.5s;
+  color: #333333;
+}
+.container .box_9 .big_text9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .small_img9 {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  transition: 0.5s;
+}
+.container .box_9 .small_img9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .small_text9 {
+  position: absolute;
+  top: 531px;
+  left: 60px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_9 .small_text9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .big_text_small9 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 30px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_9 .big_img9 {
+  top: 572px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+}
+.container .box_9 .big_img9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .yaxshi9 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 30px;
+  padding: 5.17px, 2.75px, 5.17px, 2.75px;
+}
+.container .box_9 .big9 {
+  top: 614px;
+  left: 60px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_9 .big9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .tosh9 {
+  width: 22px;
+  height: 22px;
+  top: 530px;
+  left: 235px;
+  padding: 3.67px, 2.75px, 2.75px, 2.75px;
+  position: absolute;
+}
+.container .box_9 .tosh_text9 {
+  top: 530px;
+  left: 265px;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.5s;
+  position: absolute;
+}
+.container .box_9 .tosh_text9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .navruz_img9 {
+  width: 22px;
+  height: 22px;
+  top: 572px;
+  left: 235px;
+  padding: 2.75px;
+  position: absolute;
+}
+.container .box_9 .navruz_text9 {
+  top: 572px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_9 .navruz_text9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .box_9 .navruz_big9 {
+  width: 22px;
+  height: 22px;
+  top: 614px;
+  left: 235px;
+  position: absolute;
+}
+.container .box_9 .navruz_item9 {
+  top: 614px;
+  left: 265px;
+  position: absolute;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  transition: 0.5s;
+}
+.container .box_9 .navruz_item9:hover {
+  color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container .main_btn {
+  width: 148px;
+  height: 51px;
+  top: 3050px;
+  left: 886px;
+  padding: 15px, 20px, 15px, 20px;
+  border-radius: 5px;
+  gap: 10px;
+  background: #006AFF;
+  position: absolute;
+  color: white;
+  font-family: regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  border: 1px solid #006AFF;
+  transition: 0.5s;
+}
+.container .main_btn:hover {
+  background-color: white;
+  color: #095ACD;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .uk {
+  width: 625px;
+  height: 301px;
+  top: 3337px;
+  left: 320px;
+  border-radius: 5px;
+  background: #055BD3;
+  position: absolute;
+}
+.container .uk .GMAIL {
+  top: 70px;
+  left: 30px;
+  font-family: regular;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  color: white;
+  transition: 0.5s;
+}
+.container .uk .GMAIL:hover {
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container .uk .yangi {
+  width: 297px;
+  height: 377px;
+  top: -75px;
+  left: 300px;
+  position: absolute;
+}
+.container .uk .good {
+  position: absolute;
+  width: 1920px;
+  height: 109px;
+  top: 3767px;
+  left: 1px;
+  background: linear-gradient(265.48deg, #095ACD 33.12%, #006AFF 84.7%);
+}/*# sourceMappingURL=main.css.map */
